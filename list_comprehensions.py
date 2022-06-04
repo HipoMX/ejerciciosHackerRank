@@ -1,8 +1,3 @@
 if __name__ == '__main__':
-    n = int(input())
-    arr = list(map(int, input().split()))
-    new_arr = [x for x in arr if x != max(arr)]
-    print(max(new_arr))
-
-
-pwd
+    x, y, z, n = int(input()), int(input()), int(input()), int(input())
+    print([[a, b, c] for a in range(0, x + 1) for b in range(0, y + 1) for c in range(0, z + 1) if n != x + y + z])
